@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Vehiculo</title>
+    
+   
+    
+    
+</head>
+<body>
+   <div class="form-register">
+    <form action="/insertarvehiculo" method="POST" >
+     
+      <label for="username">NIT</label>
+      <input class="controls" type="text" name="vehplaca"  placeholder="NIT">
+      <label for="username">Nombre proovedor</label>
+      <input class="controls" type="text" name="datid"  placeholder="Nombre proovedor">
+      <label for="username">Direccion</label>
+      <input class="controls" type="text" name="catid"  placeholder="Direccion">
+      <label for="username">Telefono</label>
+      <input class="controls" type="text" name="vehmodelo"  placeholder="Telefono">
+      <label for="username">Correo</label>
+      <input class="controls" type="text" name="vehmarca"  placeholder="Correo">
+
+
+     
+    </form>
+   </div>
+   
+    <table class="registros">
+      <thead>
+          <tr> 
+            <th>Consultarr</th>
+            <th>Crear</th>     
+
+              <th>Actualizar</th>
+              <th>Eliminar</th>        
+          </tr>
+      </thead>
+      <tbody>
+          
+      <tr>
+          <td><input type="submit" value="Consultarr" name="btnact" id="btnact" class="btnact"></td>
+         <td><input type="submit" value="Crear" name="btneli" id="btneli" class="btneli"></td>
+          <td><input type="submit" value="Actualizar" name="btnact" id="btnact" class="btnact"></td>
+          <td><input type="submit" value="Eliminar" name="btneli" id="btneli" class="btneli"></td>
+      </tr>
+     
+  </tbody>
+  </table>
+
+  </body>
+</html>

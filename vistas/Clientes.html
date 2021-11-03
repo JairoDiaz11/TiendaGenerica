@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+ 
+    
+    
+</head>
+<body>
+   <div class="form-register">
+    <form action="/insertarpersonas" method="POST" >
+      <h4>Formulario Para Clientes</h4>
+      <label for="username">Cedula</label>
+      <input class="controls" type="number" name="datid" class="datid" id="datid"  placeholder="Cedula">
+      <label for="username">Nombre Completo</label>
+      <input class="controls" type="text" name="datnombre"  placeholder="Nombre Completo">
+      <label for="username">Direccion</label>
+      <input class="controls" type="text" name="datapellido"  placeholder="Direccion">
+
+
+      <label for="username">Telefono</label>
+      <input class="controls" type="text" name="datelefono"  placeholder="Telefono">
+      <label for="username">Correo</label>
+      <input class="controls" type="text" name="datcorreo"  placeholder="Correo">
+    
+      <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+
+     
+       
+      </body>
+      
+    </form>
+   </div>
+         <table class="registros">
+        <thead>
+            <tr> 
+              <th>Consultarr</th>
+              <th>Crear</th>     
+    
+                <th>Actualizar</th>
+                <th>Eliminar</th>        
+            </tr>
+        </thead>
+        <tbody>
+            
+        <tr>
+            <td><input type="submit" value="Consultarr" name="btnact" id="btnact" class="btnact"></td>
+           <td><input type="submit" value="Crear" name="btneli" id="btneli" class="btneli"></td>
+            <td><input type="submit" value="Actualizar" name="btnact" id="btnact" class="btnact"></td>
+            <td><input type="submit" value="Eliminar" name="btneli" id="btneli" class="btneli"></td>
+        </tr>
+       
+    </tbody>
+    </table>
+</html>

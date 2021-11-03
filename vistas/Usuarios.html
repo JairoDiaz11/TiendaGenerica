@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuarios</title>
+
+    <link rel="stylesheet" href="./css/estilo_formularios.css">
+    
+</head>
+<body>
+   <div class="form-register">
+    <form action="/insertarusuarios" method="POST" >
+      <h4>Formulario Para Usuarios</h4>
+      <label for="username">Cedula</label>
+      <input class="controls" type="number" name="usuid" id="nombres" placeholder="Documento ">
+
+      <label for="username">Nombre</label>
+      <input class="controls" type="number" name="usuid" id="nombres" placeholder="Nombre ">
+      <label for="username">Correo</label>
+      <input class="controls" type="number" name="usuid" id="nombres" placeholder="Correo ">
+      <label for="username">Nombre de Usuario</label>
+      <input class="controls" type="text" name="usuario" id="apellidos" placeholder="Usuario">
+      <label for="username">Contraseña</label>
+      <input class="controls" type="password" name="clave" id="correo" placeholder="Clave">
+
+    
+     
+  
+    </form>
+   </div>
+  
+    <table class="registros">
+      <thead>
+          <tr> 
+            <th>Consultarr</th>
+            <th>Crear</th>     
+
+              <th>Actualizar</th>
+              <th>Eliminar</th>        
+          </tr>
+      </thead>
+      <tbody>
+          
+      <tr>
+          <td><input type="submit" value="Consultarr" name="btnact" id="btnact" class="btnact"></td>
+         <td><input type="submit" value="Crear" name="btneli" id="btneli" class="btneli"></td>
+          <td><input type="submit" value="Actualizar" name="btnact" id="btnact" class="btnact"></td>
+          <td><input type="submit" value="Eliminar" name="btneli" id="btneli" class="btneli"></td>
+      </tr>
+     
+  </tbody>
+  </table>
+
+  </body>
+</html>
